@@ -94,7 +94,6 @@ int main(int argc, const char * argv[]) {
    }*/
    
    cout << "Enter the name of the input file: ";
-   //fileName = "files/test.out";
    getline (cin, fileName);
    
    uint_fast16_t col = 0;
@@ -129,9 +128,10 @@ int main(int argc, const char * argv[]) {
       //cout << "Number of columns in " << fileName << " = " << col << endl;
       //cout << "Number of samples in " << fileName << " = " << col - 9 << endl;   // subtract 9 default columns
       
-      fileName = "files/Popstat.tsv";
+      fileName = stripPath (fileName) + "PopStat." + fileName;
       outFile.open (fileName, fstream::out);
       if (outFile.is_open ()) {
+         cout << "Saving to " << fileName << "...";
          outFile << "## Population totals are given under each population identifier" << endl;
          for (map<string, Population>::const_iterator itr = pop_map.begin(); itr != pop_map.end(); itr++) {
             if (itr->second.getSuper().compare("?") == 0)
@@ -185,6 +185,7 @@ int main(int argc, const char * argv[]) {
             outFile << endl;
          }
          outFile.close ();
+         cout << "Done" << endl;
       }
       file.close ();
    } else

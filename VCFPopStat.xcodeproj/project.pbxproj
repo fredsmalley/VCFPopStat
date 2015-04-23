@@ -32,12 +32,12 @@
 		B609558C1AE962410098518A /* populations.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = populations.tsv; sourceTree = "<group>"; };
 		B609558D1AE962410098518A /* sequence.index */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sequence.index; sourceTree = "<group>"; };
 		B609558E1AE962410098518A /* superpopulations.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = superpopulations.tsv; sourceTree = "<group>"; };
-		B609558F1AE962410098518A /* test.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.out; sourceTree = "<group>"; };
 		B60955911AE962410098518A /* Population.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Population.h; sourceTree = "<group>"; };
 		B60955921AE962410098518A /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
 		B60955991AE962410098518A /* Population.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Population.cpp; sourceTree = "<group>"; };
 		B609559A1AE962410098518A /* tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tools.cpp; sourceTree = "<group>"; };
 		B60955A11AE962850098518A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B60BFAEA1AE982FF00314373 /* PopStat.ALL.chr1.test.vcf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PopStat.ALL.chr1.test.vcf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,13 +80,13 @@
 		B60955881AE962410098518A /* files */ = {
 			isa = PBXGroup;
 			children = (
+				B60BFAEA1AE982FF00314373 /* PopStat.ALL.chr1.test.vcf */,
 				B60955891AE962410098518A /* participant_population.tsv */,
 				B609558A1AE962410098518A /* Popstat.tsv */,
 				B609558B1AE962410098518A /* population_stats.tsv */,
 				B609558C1AE962410098518A /* populations.tsv */,
 				B609558D1AE962410098518A /* sequence.index */,
 				B609558E1AE962410098518A /* superpopulations.tsv */,
-				B609558F1AE962410098518A /* test.out */,
 			);
 			path = files;
 			sourceTree = "<group>";
@@ -285,6 +285,7 @@
 				B60955861AE961B10098518A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
