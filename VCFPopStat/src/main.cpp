@@ -128,7 +128,6 @@ int main(int argc, const char * argv[]) {
       //cout << "Number of columns in " << fileName << " = " << col << endl;
       //cout << "Number of samples in " << fileName << " = " << col - 9 << endl;   // subtract 9 default columns
       
-      double percent;
       fileName = "files/Popstat.tsv";
       outFile.open (fileName, fstream::out);
       if (outFile.is_open ()) {
@@ -172,8 +171,7 @@ int main(int argc, const char * argv[]) {
       
             outFile << id;
             for (map<string, uint_fast16_t>::iterator itr = pop_count.begin (); itr != pop_count.end (); itr++) {
-               percent = (double) itr->second / (double) pop_total[itr->first];
-               outFile << "\t" << percent;
+               outFile << "\t" << itr->second;
                itr->second = 0;
             }
             outFile << endl;
