@@ -1,31 +1,31 @@
-## Table entries are given as a fraction of those with the variation, either homozygous or heterozygous, to the total for the population
-##ACB(98)->AFR(762)	African Caribbean in Barbados
-##ASW(70)->AFR(762)	African Ancestry in Southwest US
-##BEB(104)->SAS(544)	Bengali in Bangladesh
-##CDX(109)->EAS(605)	Chinese Dai in Xishuangbanna, China
-##CEU(104)->EUR(536)	Utah residents with Northern and Western European ancestry
-##CHB(148)->EAS(605)	Han Chinese in Bejing, China
-##CHS(114)->EAS(605)	Southern Han Chinese, China
-##CLM(105)->AMR(377)	Colombian in Medellin, Colombia
-##ESN(111)->AFR(762)	Esan in Nigeria
-##FIN(105)->EUR(536)	Finnish in Finland
-##GBR(106)->EUR(536)	British in England and Scotland
-##GIH(109)->SAS(544)	Gujarati Indian in Houston,TX
-##GWD(120)->AFR(762)	Gambian in Western Division, The Gambia
-##IBS(108)->EUR(536)	Iberian populations in Spain
-##ITU(112)->SAS(544)	Indian Telugu in the UK
-##JPT(131)->EAS(605)	Japanese in Tokyo, Japan
-##KHV(103)->EAS(605)	Kinh in Ho Chi Minh City, Vietnam
-##LWK(122)->AFR(762)	Luhya in Webuye, Kenya
-##MSL(98)->AFR(762)	Mende in Sierra Leone
-##MXL(73)->AMR(377)	Mexican Ancestry in Los Angeles, California
-##PEL(92)->AMR(377)	Peruvian in Lima, Peru
-##PJL(108)->SAS(544)	Punjabi in Lahore,Pakistan
-##PUR(107)->AMR(377)	Puerto Rican in Puerto Rico
-##STU(111)->SAS(544)	Sri Lankan Tamil in the UK
-##TSI(113)->EUR(536)	Toscani in Italy
-##YRI(143)->AFR(762)	Yoruba in Ibadan, Nigeria
+##ACB->AFR	African Caribbean in Barbados
+##ASW->AFR	African Ancestry in Southwest US
+##BEB->SAS	Bengali in Bangladesh
+##CDX->EAS	Chinese Dai in Xishuangbanna, China
+##CEU->EUR	Utah residents with Northern and Western European ancestry
+##CHB->EAS	Han Chinese in Bejing, China
+##CHS->EAS	Southern Han Chinese, China
+##CLM->AMR	Colombian in Medellin, Colombia
+##ESN->AFR	Esan in Nigeria
+##FIN->EUR	Finnish in Finland
+##GBR->EUR	British in England and Scotland
+##GIH->SAS	Gujarati Indian in Houston,TX
+##GWD->AFR	Gambian in Western Division, The Gambia
+##IBS->EUR	Iberian populations in Spain
+##ITU->SAS	Indian Telugu in the UK
+##JPT->EAS	Japanese in Tokyo, Japan
+##KHV->EAS	Kinh in Ho Chi Minh City, Vietnam
+##LWK->AFR	Luhya in Webuye, Kenya
+##MSL->AFR	Mende in Sierra Leone
+##MXL->AMR	Mexican Ancestry in Los Angeles, California
+##PEL->AMR	Peruvian in Lima, Peru
+##PJL->SAS	Punjabi in Lahore,Pakistan
+##PUR->AMR	Puerto Rican in Puerto Rico
+##STU->SAS	Sri Lankan Tamil in the UK
+##TSI->EUR	Toscani in Italy
+##YRI->AFR	Yoruba in Ibadan, Nigeria
 ID	ACB	AFR	AMR	ASW	BEB	CDX	CEU	CHB	CHS	CLM	EAS	ESN	EUR	FIN	GBR	GIH	GWD	IBS	ITU	JPT	KHV	LWK	MSL	MXL	PEL	PJL	PUR	SAS	STU	TSI	YRI
+	98	762	377	70	104	109	104	148	114	105	605	111	536	105	106	109	120	108	112	131	103	122	98	73	92	108	107	544	111	113	143
 rs556541063	0	0	0	0	0	0	1	0	0	0	0	0	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0
 rs145615430	0	0	0	0	0	0	1	0	0	0	0	0	3	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 rs148170422	0	0	0	0	0	2	0	3	1	0	11	0	0	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	0	0	0

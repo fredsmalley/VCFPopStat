@@ -131,11 +131,11 @@ int main(int argc, const char * argv[]) {
       fileName = "files/Popstat.tsv";
       outFile.open (fileName, fstream::out);
       if (outFile.is_open ()) {
-         outFile << "## Table entries are given as a fraction of those with the variation, either homozygous or heterozygous, to the total for the population" << endl;
+         //outFile << "## Table entries are given as a fraction of those with the variation, either homozygous or heterozygous, to the total for the population" << endl;
          for (map<string, Population>::const_iterator itr = pop_map.begin(); itr != pop_map.end(); itr++) {
             if (itr->second.getSuper().compare("?") == 0)
                continue;
-            outFile << "##" << itr->second.getPopulation () << "(" << pop_total[itr->first] << ")" << "->" << itr->second.getSuper () << "(" << pop_total[itr->second.getSuper()] << ")" << "\t" << itr->second.getDescription() << endl;
+            outFile << "##" << itr->second.getPopulation () << "->" << itr->second.getSuper () << "\t" << itr->second.getDescription() << endl;
          }
          
          while (getline (file, line)) {
@@ -162,9 +162,15 @@ int main(int argc, const char * argv[]) {
          
             if (first) {
                first = false;
+               // add titles
                outFile << column_index[2];
                for (map<string, uint_fast16_t>::const_iterator itr = pop_count.begin (); itr != pop_count.end (); itr++) {
                   outFile << "\t" << itr->first;
+               }
+               outFile << endl;
+               // add population totals
+               for (map<string, uint_fast16_t>::const_iterator itr = pop_count.begin(); itr != pop_count.end(); itr++) {
+                  outFile << "\t" << pop_total[itr->first];
                }
                outFile << endl;
             }
