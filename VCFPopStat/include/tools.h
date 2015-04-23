@@ -40,8 +40,18 @@ using std::exception;
  *	@param[in]	fileName The name of the file
  */
 
+/*!   @fn
+ *    @brief   Removes the path from a string returning the path
+ *
+ *    @param[in,out]   line The string to strip
+ *
+ *    @return  A string holding only directory path
+ */
+
+
 string		nextValue (string& line, const string& delimiter = "\t");
 void		removeWhiteSpace (string& s);
 const bool	exists (const string& fileName);
+string      stripPath (string& line);
 
 #endif /* defined(__VCFPopStat__tools__) */

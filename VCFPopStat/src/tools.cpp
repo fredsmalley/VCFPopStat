@@ -31,3 +31,14 @@ const bool exists (const string& fileName) {
 
 	return false;
 }
+
+string stripPath (string& line) {
+   string dir = "";
+   
+   while (line.find ("/") != string::npos) {
+      dir += line.substr(0, line.find ("/") + 1);
+      line = line.substr (line.find ("/") + 1);
+   }
+   
+   return dir;
+}
