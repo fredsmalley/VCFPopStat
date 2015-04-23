@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B6209BEE1AE04DD700D289FC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6209BED1AE04DD700D289FC /* main.cpp */; };
-		B6209BF91AE04F9700D289FC /* participant_population.tsv in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6209BF51AE04F9700D289FC /* participant_population.tsv */; };
-		B6209BFA1AE04F9700D289FC /* population_stats.tsv in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6209BF61AE04F9700D289FC /* population_stats.tsv */; };
-		B6209BFB1AE04F9700D289FC /* populations.tsv in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6209BF71AE04F9700D289FC /* populations.tsv */; };
-		B6209BFC1AE04F9700D289FC /* sequence.index in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6209BF81AE04F9700D289FC /* sequence.index */; };
-		B6209BFF1AE0513500D289FC /* test.out in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6209BFE1AE0513500D289FC /* test.out */; };
 		B6209C011AE0525200D289FC /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6209C001AE0525200D289FC /* tools.cpp */; };
 		B6209C071AE08A4A00D289FC /* Population.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6209C051AE08A4A00D289FC /* Population.cpp */; };
+		B6C5073C1AE756AA009B2177 /* test.out in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6209BFE1AE0513500D289FC /* test.out */; };
+		B6C5073D1AE756AA009B2177 /* participant_population.tsv in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6209BF51AE04F9700D289FC /* participant_population.tsv */; };
+		B6C5073E1AE756AA009B2177 /* population_stats.tsv in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6209BF61AE04F9700D289FC /* population_stats.tsv */; };
+		B6C5073F1AE756AA009B2177 /* populations.tsv in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6209BF71AE04F9700D289FC /* populations.tsv */; };
+		B6C507401AE756AA009B2177 /* sequence.index in CopyFiles */ = {isa = PBXBuildFile; fileRef = B6209BF81AE04F9700D289FC /* sequence.index */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,11 +33,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				B6209BFF1AE0513500D289FC /* test.out in CopyFiles */,
-				B6209BF91AE04F9700D289FC /* participant_population.tsv in CopyFiles */,
-				B6209BFA1AE04F9700D289FC /* population_stats.tsv in CopyFiles */,
-				B6209BFB1AE04F9700D289FC /* populations.tsv in CopyFiles */,
-				B6209BFC1AE04F9700D289FC /* sequence.index in CopyFiles */,
+				B6C5073C1AE756AA009B2177 /* test.out in CopyFiles */,
+				B6C5073D1AE756AA009B2177 /* participant_population.tsv in CopyFiles */,
+				B6C5073E1AE756AA009B2177 /* population_stats.tsv in CopyFiles */,
+				B6C5073F1AE756AA009B2177 /* populations.tsv in CopyFiles */,
+				B6C507401AE756AA009B2177 /* sequence.index in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +55,7 @@
 		B6209C021AE0526C00D289FC /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tools.h; path = ../../../Var/include/tools.h; sourceTree = "<group>"; };
 		B6209C051AE08A4A00D289FC /* Population.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Population.cpp; sourceTree = "<group>"; };
 		B6209C061AE08A4A00D289FC /* Population.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Population.h; sourceTree = "<group>"; };
+		B6C507411AE82468009B2177 /* Popstat.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Popstat.tsv; path = "../../../../Library/Developer/Xcode/DerivedData/VCFPopStat-awlvgcdvtomlagdluxhhcldakgkv/Build/Products/Debug/Popstat.tsv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		B6209BFD1AE050DE00D289FC /* files */ = {
 			isa = PBXGroup;
 			children = (
+				B6C507411AE82468009B2177 /* Popstat.tsv */,
 				B6209BFE1AE0513500D289FC /* test.out */,
 				B6209BF51AE04F9700D289FC /* participant_population.tsv */,
 				B6209BF61AE04F9700D289FC /* population_stats.tsv */,
@@ -302,6 +304,7 @@
 				B6209BF31AE04DD700D289FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

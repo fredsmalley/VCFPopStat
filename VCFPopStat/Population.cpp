@@ -24,6 +24,18 @@ Population::Population (const string& pop, const string& spop, const string& des
    population_description = des;
 }
 
+/*!   This is the copy constructor for the Population class
+ *    @brief   Copy
+ *
+ *    @param   p A reference to the Population to be copied
+ */
+Population::Population (const Population& p) {
+   population = p.population;
+   super_population = p.super_population;
+   population_description = p.population_description;
+}
+
+
 /*!   This is the default constructor for the Population class
  *    @brief   Default
  *
@@ -40,7 +52,7 @@ Population::Population () {
  *    @param   pop   A string holding the new population name
  *
  */
-void Population::setPopulation(const string& pop) {   population = pop; }
+void Population::setPopulation (const string& pop) {   population = pop; }
 
 /*!   This method sets the superpopulation in this Population object
  *    @brief   set super population
@@ -48,7 +60,7 @@ void Population::setPopulation(const string& pop) {   population = pop; }
  *    @param   spop A string holding the new super population name
  *
  */
-void Population::setSuper(const string& spop) {   super_population = spop; }
+void Population::setSuper (const string& spop) {   super_population = spop; }
 
 /*!   This method sets the description for the Population object
  *    @brief   set description
@@ -56,34 +68,46 @@ void Population::setSuper(const string& spop) {   super_population = spop; }
  *    @param   des   A string which holds the new population description
  *
  */
-void Population::setDescription(const string& des) {    population_description = des; }
+void Population::setDescription (const string& des) {    population_description = des; }
 
 /*!   This method returns the population name
  *    @brief   get population
  *
  *    @return  A string holding the population name
  */
-string Population::getPopulation() const {    return population; }
+string Population::getPopulation () const {    return population; }
 
 /*!   This method return the super population name
  *    @brief   get super population
  *
  *    @return  A string holding the super population name
  */
-string Population::getSuper() const {    return super_population; }
+string Population::getSuper () const {    return super_population; }
 
 /*!   This method returns the population discription
  *    @brief   get description
  *
  *    @return  A string holding the population description
  */
-string Population::getDescription() const {    return population_description; }
+string Population::getDescription () const {    return population_description; }
 
 /*!   This is a standard toString method for the Population class
  *    @brief   get info string
  *
  *    @return  A string holding a description of the Population object
  */
-string Population::toString() const {
+string Population::toString () const {
    return super_population + " <- " + population + "\n\t: " + population_description;
 }
+
+/*!   This method defines equality between Population objects
+ *    @brief   equality comparator
+ *
+ *    @param   p A reference to a Population object to compare equality
+ *
+ *    @return  A bool resulting from the comparison
+ */
+const bool Population::operator==(const Population& p) const {
+   return population.compare (p.population) == 0;
+}
+

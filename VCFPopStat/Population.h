@@ -23,6 +23,7 @@ private:
    
 public:
    Population (const string&, const string&, const string&);
+   Population (const Population&);
    Population ();
    
    void setPopulation (const string&);
@@ -33,6 +34,8 @@ public:
    string getSuper () const;
    string getDescription () const;
    string toString () const;
+   
+   const bool operator == (const Population&) const;
 };
 
 #endif /* defined(__VCFPopStat__Population__) */
