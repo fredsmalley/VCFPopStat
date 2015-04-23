@@ -1,0 +1,66 @@
+Population count:
+ACB: 98
+ASW: 70
+BEB: 104
+CDX: 109
+CEU: 104
+CHB: 148
+CHD: 123
+CHS: 114
+CLM: 105
+ESN: 111
+FIN: 105
+GBR: 106
+GIH: 109
+GWD: 120
+IBS: 108
+ITU: 112
+JPT: 131
+KHV: 103
+LWK: 122
+MSL: 98
+MXL: 73
+PEL: 92
+PJL: 108
+PUR: 107
+STU: 111
+TSI: 113
+YRI: 143
+Total: 2947
+
+Subpopulations:
+ACB	AFR	African Caribbean in Barbados
+ASW	AFR	African Ancestry in Southwest US
+BEB	SAS	Bengali in Bangladesh
+CDX	EAS	Chinese Dai in Xishuangbanna, China
+CEU	EUR	Utah residents with Northern and Western European ancestry
+CHB	EAS	Han Chinese in Bejing, China
+CHS	EAS	Southern Han Chinese, China
+CLM	AMR	Colombian in Medellin, Colombia
+ESN	AFR	Esan in Nigeria
+FIN	EUR	Finnish in Finland
+GBR	EUR	British in England and Scotland
+GIH	SAS	Gujarati Indian in Houston,TX
+GWD	AFR	Gambian in Western Division, The Gambia
+IBS	EUR	Iberian populations in Spain
+ITU	SAS	Indian Telugu in the UK
+JPT	EAS	Japanese in Tokyo, Japan
+KHV	EAS	Kinh in Ho Chi Minh City, Vietnam
+LWK	AFR	Luhya in Webuye, Kenya
+MSL	AFR	Mende in Sierra Leone
+MXL	AMR	Mexican Ancestry in Los Angeles, California
+PEL	AMR	Peruvian in Lima, Peru
+PJL	SAS	Punjabi in Lahore,Pakistan
+PUR	AMR	Puerto Rican in Puerto Rico
+STU	SAS	Sri Lankan Tamil in the UK
+TSI	EUR	Toscani in Italy
+YRI	AFR	Yoruba in Ibadan, Nigeria
+
+Superpopulation counts:
+EAS: 605
+SAS: 544
+AFR: 762
+EUR: 536
+AMR: 377
+other: 123
+Total: 2824

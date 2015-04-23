@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>006DB235-B63D-4F90-8A7B-667FB1E39A3B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VCFPopStat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0AEEFA59F93567C71601DA46A2507CCA51D50C55</key>
+		<string>https://github.com/fredsmalley/VCFPopStat.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VCFPopStat.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0AEEFA59F93567C71601DA46A2507CCA51D50C55</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fredsmalley/VCFPopStat.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0AEEFA59F93567C71601DA46A2507CCA51D50C55</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0AEEFA59F93567C71601DA46A2507CCA51D50C55</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VCFPopStat</string>
+		</dict>
+	</array>
+</dict>
+</plist>
