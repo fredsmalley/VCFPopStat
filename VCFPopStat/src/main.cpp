@@ -53,6 +53,7 @@ int main(int argc, const char * argv[]) {
          pop_count[s_pop] = 0;
          pop_map[pop] = Population (pop, s_pop, pop_des);
       }
+      pop_count["ALL"] = 0;
       
       cout << "Done" << endl;
       file.close();
@@ -78,6 +79,7 @@ int main(int argc, const char * argv[]) {
          race_map[id] = pop;
          pop_total[pop] = 0;
          pop_total[pop_map[pop].getSuper ()] = 0;
+         pop_total["ALL"] = 0;
          
          //cout << nextValue (line) << endl;
       }
@@ -86,11 +88,6 @@ int main(int argc, const char * argv[]) {
       file.close();
    } else
       cout << "Unable to open " << fileName << endl;
-   
-   for (map<string, string>::const_iterator itr = race_map.begin(); itr != race_map.end(); itr++) {
-      pop_total[itr->second] += 1;
-      pop_total[pop_map[itr->second].getSuper ()] += 1;
-   }
    
    /*for (map<string, uint_fast16_t>::const_iterator itr = pop_total.begin (); itr != pop_total.end (); itr++) {
       cout << itr->first << ": " << itr->second << endl;
@@ -121,7 +118,11 @@ int main(int argc, const char * argv[]) {
          
       cout << "Finding Participants and Column Placement...";
       while (line.length() != 0) {
-         column_index[col++] = nextValue (line);
+         id = nextValue (line);
+         column_index[col++] = id;
+         pop_total[race_map[id]] += 1;
+         pop_total[pop_map[race_map[id]].getSuper ()] += 1;
+         pop_total["ALL"] += 1;
       }
       cout << "Done" << endl;
          
@@ -131,7 +132,7 @@ int main(int argc, const char * argv[]) {
       fileName = "files/Popstat.tsv";
       outFile.open (fileName, fstream::out);
       if (outFile.is_open ()) {
-         //outFile << "## Table entries are given as a fraction of those with the variation, either homozygous or heterozygous, to the total for the population" << endl;
+         outFile << "## Population totals are given under each population identifier" << endl;
          for (map<string, Population>::const_iterator itr = pop_map.begin(); itr != pop_map.end(); itr++) {
             if (itr->second.getSuper().compare("?") == 0)
                continue;
@@ -156,6 +157,7 @@ int main(int argc, const char * argv[]) {
                if (stoi (gt_0) + stoi (gt) > 0) {
                   pop_count[pop_map[race_map[column_index[col]]].getSuper ()] += 1;
                   pop_count[pop_map[race_map[column_index[col]]].getPopulation ()] += 1;
+                  pop_count["ALL"] += 1;
                }
                ++col;
             }
