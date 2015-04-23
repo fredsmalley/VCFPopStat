@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6ABE0C21AE95BEC0041C663 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6ABE0BA1AE95BEC0041C663 /* main.cpp */; };
-		B6ABE0C31AE95BEC0041C663 /* Population.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6ABE0BB1AE95BEC0041C663 /* Population.cpp */; };
-		B6ABE0C41AE95BEC0041C663 /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B6ABE0BC1AE95BEC0041C663 /* tools.cpp */; };
+		B609559F1AE962410098518A /* Population.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60955991AE962410098518A /* Population.cpp */; };
+		B60955A01AE962410098518A /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B609559A1AE962410098518A /* tools.cpp */; };
+		B60955A21AE962850098518A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60955A11AE962850098518A /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B6ABE09F1AE95BC60041C663 /* CopyFiles */ = {
+		B609557B1AE961B10098518A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,23 +25,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B6ABE0A11AE95BC60041C663 /* VCFPopStat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VCFPopStat; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6ABE0AD1AE95BEC0041C663 /* participant_population.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = participant_population.tsv; sourceTree = "<group>"; };
-		B6ABE0AE1AE95BEC0041C663 /* Popstat.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Popstat.tsv; sourceTree = "<group>"; };
-		B6ABE0AF1AE95BEC0041C663 /* population_stats.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = population_stats.tsv; sourceTree = "<group>"; };
-		B6ABE0B01AE95BEC0041C663 /* populations.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = populations.tsv; sourceTree = "<group>"; };
-		B6ABE0B11AE95BEC0041C663 /* sequence.index */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sequence.index; sourceTree = "<group>"; };
-		B6ABE0B21AE95BEC0041C663 /* superpopulations.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = superpopulations.tsv; sourceTree = "<group>"; };
-		B6ABE0B31AE95BEC0041C663 /* test.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.out; sourceTree = "<group>"; };
-		B6ABE0B51AE95BEC0041C663 /* Population.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Population.h; sourceTree = "<group>"; };
-		B6ABE0B61AE95BEC0041C663 /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
-		B6ABE0BA1AE95BEC0041C663 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		B6ABE0BB1AE95BEC0041C663 /* Population.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Population.cpp; sourceTree = "<group>"; };
-		B6ABE0BC1AE95BEC0041C663 /* tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tools.cpp; sourceTree = "<group>"; };
+		B609557D1AE961B10098518A /* VCFPopStat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VCFPopStat; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60955891AE962410098518A /* participant_population.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = participant_population.tsv; sourceTree = "<group>"; };
+		B609558A1AE962410098518A /* Popstat.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Popstat.tsv; sourceTree = "<group>"; };
+		B609558B1AE962410098518A /* population_stats.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = population_stats.tsv; sourceTree = "<group>"; };
+		B609558C1AE962410098518A /* populations.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = populations.tsv; sourceTree = "<group>"; };
+		B609558D1AE962410098518A /* sequence.index */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sequence.index; sourceTree = "<group>"; };
+		B609558E1AE962410098518A /* superpopulations.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = superpopulations.tsv; sourceTree = "<group>"; };
+		B609558F1AE962410098518A /* test.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.out; sourceTree = "<group>"; };
+		B60955911AE962410098518A /* Population.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Population.h; sourceTree = "<group>"; };
+		B60955921AE962410098518A /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
+		B60955991AE962410098518A /* Population.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Population.cpp; sourceTree = "<group>"; };
+		B609559A1AE962410098518A /* tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tools.cpp; sourceTree = "<group>"; };
+		B60955A11AE962850098518A /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B6ABE09E1AE95BC60041C663 /* Frameworks */ = {
+		B609557A1AE961B10098518A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,70 +51,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B6ABE0981AE95BC60041C663 = {
+		B60955741AE961B10098518A = {
 			isa = PBXGroup;
 			children = (
-				B6ABE0AB1AE95BEC0041C663 /* VCFPopStat */,
-				B6ABE0A21AE95BC60041C663 /* Products */,
+				B60955871AE962410098518A /* VCFPopStat */,
+				B609557E1AE961B10098518A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B6ABE0A21AE95BC60041C663 /* Products */ = {
+		B609557E1AE961B10098518A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6ABE0A11AE95BC60041C663 /* VCFPopStat */,
+				B609557D1AE961B10098518A /* VCFPopStat */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B6ABE0AB1AE95BEC0041C663 /* VCFPopStat */ = {
+		B60955871AE962410098518A /* VCFPopStat */ = {
 			isa = PBXGroup;
 			children = (
-				B6ABE0AC1AE95BEC0041C663 /* files */,
-				B6ABE0B41AE95BEC0041C663 /* include */,
-				B6ABE0B81AE95BEC0041C663 /* obj */,
-				B6ABE0B91AE95BEC0041C663 /* src */,
+				B60955881AE962410098518A /* files */,
+				B60955901AE962410098518A /* include */,
+				B60955981AE962410098518A /* src */,
 			);
-			name = VCFPopStat;
-			path = ..;
+			path = VCFPopStat;
 			sourceTree = "<group>";
 		};
-		B6ABE0AC1AE95BEC0041C663 /* files */ = {
+		B60955881AE962410098518A /* files */ = {
 			isa = PBXGroup;
 			children = (
-				B6ABE0AD1AE95BEC0041C663 /* participant_population.tsv */,
-				B6ABE0AE1AE95BEC0041C663 /* Popstat.tsv */,
-				B6ABE0AF1AE95BEC0041C663 /* population_stats.tsv */,
-				B6ABE0B01AE95BEC0041C663 /* populations.tsv */,
-				B6ABE0B11AE95BEC0041C663 /* sequence.index */,
-				B6ABE0B21AE95BEC0041C663 /* superpopulations.tsv */,
-				B6ABE0B31AE95BEC0041C663 /* test.out */,
+				B60955891AE962410098518A /* participant_population.tsv */,
+				B609558A1AE962410098518A /* Popstat.tsv */,
+				B609558B1AE962410098518A /* population_stats.tsv */,
+				B609558C1AE962410098518A /* populations.tsv */,
+				B609558D1AE962410098518A /* sequence.index */,
+				B609558E1AE962410098518A /* superpopulations.tsv */,
+				B609558F1AE962410098518A /* test.out */,
 			);
 			path = files;
 			sourceTree = "<group>";
 		};
-		B6ABE0B41AE95BEC0041C663 /* include */ = {
+		B60955901AE962410098518A /* include */ = {
 			isa = PBXGroup;
 			children = (
-				B6ABE0B51AE95BEC0041C663 /* Population.h */,
-				B6ABE0B61AE95BEC0041C663 /* tools.h */,
+				B60955911AE962410098518A /* Population.h */,
+				B60955921AE962410098518A /* tools.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		B6ABE0B81AE95BEC0041C663 /* obj */ = {
+		B60955981AE962410098518A /* src */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = obj;
-			sourceTree = "<group>";
-		};
-		B6ABE0B91AE95BEC0041C663 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				B6ABE0BA1AE95BEC0041C663 /* main.cpp */,
-				B6ABE0BB1AE95BEC0041C663 /* Population.cpp */,
-				B6ABE0BC1AE95BEC0041C663 /* tools.cpp */,
+				B60955A11AE962850098518A /* main.cpp */,
+				B60955991AE962410098518A /* Population.cpp */,
+				B609559A1AE962410098518A /* tools.cpp */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -122,13 +113,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B6ABE0A01AE95BC60041C663 /* VCFPopStat */ = {
+		B609557C1AE961B10098518A /* VCFPopStat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6ABE0A81AE95BC60041C663 /* Build configuration list for PBXNativeTarget "VCFPopStat" */;
+			buildConfigurationList = B60955841AE961B10098518A /* Build configuration list for PBXNativeTarget "VCFPopStat" */;
 			buildPhases = (
-				B6ABE09D1AE95BC60041C663 /* Sources */,
-				B6ABE09E1AE95BC60041C663 /* Frameworks */,
-				B6ABE09F1AE95BC60041C663 /* CopyFiles */,
+				B60955791AE961B10098518A /* Sources */,
+				B609557A1AE961B10098518A /* Frameworks */,
+				B609557B1AE961B10098518A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -136,55 +127,55 @@
 			);
 			name = VCFPopStat;
 			productName = VCFPopStat;
-			productReference = B6ABE0A11AE95BC60041C663 /* VCFPopStat */;
+			productReference = B609557D1AE961B10098518A /* VCFPopStat */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B6ABE0991AE95BC60041C663 /* Project object */ = {
+		B60955751AE961B10098518A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Song Lab";
 				TargetAttributes = {
-					B6ABE0A01AE95BC60041C663 = {
+					B609557C1AE961B10098518A = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
 			};
-			buildConfigurationList = B6ABE09C1AE95BC60041C663 /* Build configuration list for PBXProject "VCFPopStat" */;
+			buildConfigurationList = B60955781AE961B10098518A /* Build configuration list for PBXProject "VCFPopStat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B6ABE0981AE95BC60041C663;
-			productRefGroup = B6ABE0A21AE95BC60041C663 /* Products */;
+			mainGroup = B60955741AE961B10098518A;
+			productRefGroup = B609557E1AE961B10098518A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B6ABE0A01AE95BC60041C663 /* VCFPopStat */,
+				B609557C1AE961B10098518A /* VCFPopStat */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B6ABE09D1AE95BC60041C663 /* Sources */ = {
+		B60955791AE961B10098518A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6ABE0C31AE95BEC0041C663 /* Population.cpp in Sources */,
-				B6ABE0C21AE95BEC0041C663 /* main.cpp in Sources */,
-				B6ABE0C41AE95BEC0041C663 /* tools.cpp in Sources */,
+				B609559F1AE962410098518A /* Population.cpp in Sources */,
+				B60955A01AE962410098518A /* tools.cpp in Sources */,
+				B60955A21AE962850098518A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B6ABE0A61AE95BC60041C663 /* Debug */ = {
+		B60955821AE961B10098518A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +217,7 @@
 			};
 			name = Debug;
 		};
-		B6ABE0A71AE95BC60041C663 /* Release */ = {
+		B60955831AE961B10098518A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,14 +252,14 @@
 			};
 			name = Release;
 		};
-		B6ABE0A91AE95BC60041C663 /* Debug */ = {
+		B60955851AE961B10098518A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		B6ABE0AA1AE95BC60041C663 /* Release */ = {
+		B60955861AE961B10098518A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,25 +269,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B6ABE09C1AE95BC60041C663 /* Build configuration list for PBXProject "VCFPopStat" */ = {
+		B60955781AE961B10098518A /* Build configuration list for PBXProject "VCFPopStat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6ABE0A61AE95BC60041C663 /* Debug */,
-				B6ABE0A71AE95BC60041C663 /* Release */,
+				B60955821AE961B10098518A /* Debug */,
+				B60955831AE961B10098518A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6ABE0A81AE95BC60041C663 /* Build configuration list for PBXNativeTarget "VCFPopStat" */ = {
+		B60955841AE961B10098518A /* Build configuration list for PBXNativeTarget "VCFPopStat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6ABE0A91AE95BC60041C663 /* Debug */,
-				B6ABE0AA1AE95BC60041C663 /* Release */,
+				B60955851AE961B10098518A /* Debug */,
+				B60955861AE961B10098518A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B6ABE0991AE95BC60041C663 /* Project object */;
+	rootObject = B60955751AE961B10098518A /* Project object */;
 }

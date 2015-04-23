@@ -17,6 +17,7 @@
 #include "Population.h"
 
 using std::cout;
+using std::cin;
 using std::endl;
 using std::fstream;
 using std::string;
@@ -91,11 +92,13 @@ int main(int argc, const char * argv[]) {
       pop_total[pop_map[itr->second].getSuper ()] += 1;
    }
    
-   for (map<string, uint_fast16_t>::const_iterator itr = pop_total.begin (); itr != pop_total.end (); itr++) {
+   /*for (map<string, uint_fast16_t>::const_iterator itr = pop_total.begin (); itr != pop_total.end (); itr++) {
       cout << itr->first << ": " << itr->second << endl;
-   }
+   }*/
    
-   fileName = "files/test.out";
+   cout << "Enter the name of the input file: ";
+   //fileName = "files/test.out";
+   getline (cin, fileName);
    
    uint_fast16_t col = 0;
    map<uint_fast16_t, string> column_index;

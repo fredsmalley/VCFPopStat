@@ -7,8 +7,8 @@
  *	many times in the main program.
  *
  */
-#ifndef TOOLS_H
-#define TOOLS_H 1
+#ifndef __VCFPopStat__tools__
+#define __VCFPopStat__tools__
 
 #include <string>
 #include <sys/stat.h>
@@ -44,4 +44,4 @@ string		nextValue (string& line, const string& delimiter = "\t");
 void		removeWhiteSpace (string& s);
 const bool	exists (const string& fileName);
 
-#endif
+#endif /* defined(__VCFPopStat__tools__) */

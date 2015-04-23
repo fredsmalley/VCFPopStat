@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6ABE0A01AE95BC60041C663"
+               BlueprintIdentifier = "B609557C1AE961B10098518A"
                BuildableName = "VCFPopStat"
                BlueprintName = "VCFPopStat"
                ReferencedContainer = "container:VCFPopStat.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6ABE0A01AE95BC60041C663"
+            BlueprintIdentifier = "B609557C1AE961B10098518A"
             BuildableName = "VCFPopStat"
             BlueprintName = "VCFPopStat"
             ReferencedContainer = "container:VCFPopStat.xcodeproj">
@@ -52,7 +52,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6ABE0A01AE95BC60041C663"
+            BlueprintIdentifier = "B609557C1AE961B10098518A"
             BuildableName = "VCFPopStat"
             BlueprintName = "VCFPopStat"
             ReferencedContainer = "container:VCFPopStat.xcodeproj">
@@ -71,7 +71,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6ABE0A01AE95BC60041C663"
+            BlueprintIdentifier = "B609557C1AE961B10098518A"
             BuildableName = "VCFPopStat"
             BlueprintName = "VCFPopStat"
             ReferencedContainer = "container:VCFPopStat.xcodeproj">
